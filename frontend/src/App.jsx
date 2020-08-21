@@ -1,20 +1,15 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 
-import api from './services/api'
+import DjangoReact from './components/DjangoReact'
+import Message from './components/Message'
+
+import './styles.css'
 
 function App () {
-    const [message, setMessage] = useState('Getting server response...')
-
-    useEffect(() => {
-        api.get('/api/')
-            .then(res => {
-                setMessage(res.data)
-            })
-    }, [])
-
     return (
-        <div className="App">
-            {message}
+        <div className="app-container">
+            <DjangoReact />
+            <Message />
         </div>
     )
 }

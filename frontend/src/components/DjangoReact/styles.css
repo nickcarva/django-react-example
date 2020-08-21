@@ -1,0 +1,25 @@
+.django-react-container {
+    width: 50vw;
+    height: 30vh;
+    margin-bottom: 15vh;
+    background-color: #222;
+    overflow: hidden;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 4px 4px 12px rgba(0,0,0,.3);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.django-react-container span {
+    color: #fff;
+    font-size: 35pt;
+    text-shadow: 1px 1px 2px #fff;
+}
+
+.django-react-container img {
+    max-width: 30%;
+    -webkit-filter: drop-shadow(1px 1px 2px #fff);
+    filter: drop-shadow(1px 1px 2px #fff);
+}
