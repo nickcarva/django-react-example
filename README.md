@@ -13,3 +13,8 @@ Django (Backend) and ReactJS (Frontend) in the same app. Hello World example.
 
 - yarn install
 - yarn start
+
+---
+
+##### Sample:
+<img src="./.github/sample.png" width="400" />
